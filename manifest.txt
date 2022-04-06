@@ -1,0 +1,12 @@
+#Manifest for downloader.bat
+#put things to download in this file
+#
+#the format is comma seperated:
+#  1st: a nice human name for the tool, this will only be used in the command line and this file
+#  2nd: the destination file of the tool in the share. eg. windows/network/wfc.exe
+#  3rd: the source URL of the tool
+#
+#comments can be made by starting  the line with a hashtag
+#
+pollyPassword,PPM.zip,https://github.com/asaHorn/Polly-Password-Manager/archive/refs/heads/master.zip
+WinFirewallControl,WFC.exe,https://www.binisoft.org/download/wfc6setup.exe
